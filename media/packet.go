@@ -1,6 +1,6 @@
 package media
 
-import "avd/meeting/base/utils"
+import "lx/meeting/base/utils"
 
 // AVCodec 音视频编码格式
 type AVCodec int

@@ -8,8 +8,8 @@ import (
 
 type Building struct {
 	IsDebug         bool   // 是否为DEBUG版本
-	AppShortId      string // 应用短ID, E.G.: [mcs]
-	AppId           string // 应用ID, E.G.: [avd/zerogo/app/mcs2]
+	AppShortId      string // 应用短ID, E.G.: [app1]
+	AppId           string // 应用ID, E.G.: [lx/meeting/app/app1]
 	VersionName     string // 版本名称, E.G.: [1.x.x]
 	VersionCode     string // 版本ID, E.G.: [20231121.86400]
 	VersionFullName string // 版本全称, E.G.: [1.x.x-20231121.86400]

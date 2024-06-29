@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 	"syscall"
 
-	"avd/meeting/base/logger"
+	"lx/meeting/base/logger"
 )
 
 var gOnAbort func()

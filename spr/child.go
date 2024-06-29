@@ -1,10 +1,10 @@
 package spr
 
 import (
-	"avd/meeting/base"
-	"avd/meeting/base/logger"
-	"avd/meeting/base/utils"
 	"errors"
+	"lx/meeting/base"
+	"lx/meeting/base/logger"
+	"lx/meeting/base/utils"
 	"net"
 	"net/rpc"
 	"os"

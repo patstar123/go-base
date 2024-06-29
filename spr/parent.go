@@ -1,14 +1,14 @@
 package spr
 
 import (
-	"avd/meeting/base"
 	"fmt"
+	"lx/meeting/base"
 	"net/rpc"
 	"os"
 	"os/exec"
 	"time"
 
-	"avd/meeting/base/logger"
+	"lx/meeting/base/logger"
 )
 
 // SubProcCaller 子进程控制器

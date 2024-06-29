@@ -3,8 +3,8 @@ package utils
 import (
 	"net/http"
 
-	"avd/meeting/base/logger"
 	"github.com/gin-gonic/gin"
+	"lx/meeting/base/logger"
 )
 
 func LogHttpRequest(params any) {

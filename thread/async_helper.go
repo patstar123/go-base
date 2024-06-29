@@ -1,10 +1,10 @@
 package thread
 
 import (
-	"avd/meeting/base"
+	"lx/meeting/base"
 	"time"
 
-	"avd/meeting/base/logger"
+	"lx/meeting/base/logger"
 )
 
 type AsyncCaller interface {

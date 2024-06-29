@@ -1,12 +1,11 @@
 package utils
 
 import (
-	"avd/meeting/base/logger"
 	"context"
 	"crypto/rand"
 	"github.com/jxskiss/base62"
-	"github.com/redis/go-redis/v9"
 	"io"
+	"lx/meeting/base/logger"
 	"time"
 )
 

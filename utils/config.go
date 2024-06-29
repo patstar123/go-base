@@ -1,9 +1,8 @@
 package utils
 
 import (
-	"avd/meeting/base"
-	"avd/meeting/base/logger"
-	"gopkg.in/yaml.v3"
+	"lx/meeting/base"
+	"lx/meeting/base/logger"
 	"os"
 	"path/filepath"
 )

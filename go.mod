@@ -1,4 +1,4 @@
-module avd/meeting/base
+module lx/meeting/base
 
 go 1.20
 

@@ -1,10 +1,10 @@
 package thread
 
 import (
-	"avd/meeting/base"
-	"avd/meeting/base/logger"
-	"avd/meeting/base/utils"
 	"bytes"
+	"lx/meeting/base"
+	"lx/meeting/base/logger"
+	"lx/meeting/base/utils"
 	"runtime"
 	"strconv"
 	"time"

@@ -1,7 +1,7 @@
 package thread
 
 import (
-	"avd/meeting/base"
+	"lx/meeting/base"
 	"time"
 )
 

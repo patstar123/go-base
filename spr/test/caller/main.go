@@ -1,12 +1,12 @@
 package main
 
 import (
-	"avd/meeting/base"
-	"avd/meeting/base/spr"
-	"avd/meeting/base/spr/test/comm"
+	"lx/meeting/base"
+	"lx/meeting/base/spr"
+	"lx/meeting/base/spr/test/comm"
 	"time"
 
-	"avd/meeting/base/logger"
+	"lx/meeting/base/logger"
 )
 
 type SimpleProxy struct {

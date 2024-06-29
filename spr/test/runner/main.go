@@ -1,11 +1,11 @@
 package main
 
 import (
-	"avd/meeting/base"
-	"avd/meeting/base/logger"
-	"avd/meeting/base/spr"
-	"avd/meeting/base/spr/test/comm"
 	"fmt"
+	"lx/meeting/base"
+	"lx/meeting/base/logger"
+	"lx/meeting/base/spr"
+	"lx/meeting/base/spr/test/comm"
 )
 
 type Simple struct {
