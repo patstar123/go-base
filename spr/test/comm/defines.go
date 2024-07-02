@@ -14,5 +14,5 @@ type Flags struct {
 type Args2 struct {
 	StringValue1 string
 	StringValue2 string
-	DebugFlags   *Flags
+	Flags1       *Flags
 }

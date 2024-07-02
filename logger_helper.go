@@ -1,7 +1,8 @@
-package logger
+package base
 
 import (
 	"fmt"
+	"github.com/livekit/protocol/logger"
 	"go.uber.org/zap/zapcore"
 	"time"
 )
@@ -32,7 +33,7 @@ func init() {
 		_levelToCapitalColorString[level] = color.Add(level.CapitalString()[0:4])
 	}
 
-	InitFromConfig(&Config{
+	logger.InitFromConfig(&logger.Config{
 		Level:             "info",
 		EncoderConfig:     &RecommendedEncoderConfig,
 		DisableCaller:     false,
@@ -45,7 +46,7 @@ func InitDefaultLogger() {
 }
 
 func InitSimpleLogger(name, level string) {
-	InitFromConfig(&Config{
+	logger.InitFromConfig(&logger.Config{
 		Level:             level,
 		EncoderConfig:     &RecommendedEncoderConfig,
 		DisableCaller:     false,
@@ -53,14 +54,14 @@ func InitSimpleLogger(name, level string) {
 	}, name)
 }
 
-func InitLogger(name string, cfg *Config) {
+func InitLogger(name string, cfg *logger.Config) {
 	if cfg.Level == "" {
 		cfg.Level = "info"
 	}
 	if cfg.EncoderConfig == nil {
 		cfg.EncoderConfig = &RecommendedEncoderConfig
 	}
-	InitFromConfig(cfg, name)
+	logger.InitFromConfig(cfg, name)
 }
 
 var (

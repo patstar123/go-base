@@ -4,8 +4,9 @@ import (
 	"context"
 	"crypto/rand"
 	"github.com/jxskiss/base62"
+	"github.com/livekit/protocol/logger"
+	"github.com/redis/go-redis/v9"
 	"io"
-	"lx/meeting/base/logger"
 	"time"
 )
 

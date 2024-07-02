@@ -1,4 +1,0 @@
-
-* config/fieldsampler/logger.go are copied from lx/meeting/base/logger
-
-* then modify logger.go

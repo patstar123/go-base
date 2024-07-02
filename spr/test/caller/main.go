@@ -6,7 +6,7 @@ import (
 	"lx/meeting/base/spr/test/comm"
 	"time"
 
-	"lx/meeting/base/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type SimpleProxy struct {
@@ -38,11 +38,11 @@ func (p *ComplexProxy) CustomTypeValues() []any {
 	}
 }
 
-func (p *ComplexProxy) Init(value1, value2 string, debugFlags *comm.Flags) base.Result {
+func (p *ComplexProxy) Init(value1, value2 string, flags *comm.Flags) base.Result {
 	args := &comm.Args2{
 		StringValue1: value1,
 		StringValue2: value2,
-		DebugFlags:   debugFlags,
+		Flags1:       flags,
 	}
 	var res base.Result
 	err := p.caller.Call("complex.Init", args, &res)
@@ -68,7 +68,7 @@ func (s *Simple2) Plus(args *comm.Args, reply *int) error {
 }
 
 func main() {
-	logger.InitSimpleLogger("test", "debug")
+	base.InitSimpleLogger("test", "debug")
 
 	cbObjs := map[string]spr.RpcSvr{
 		"simple2": &Simple2{},
@@ -99,7 +99,7 @@ func main() {
 	})
 	if res.IsOk() {
 		logger.Infow("Init:", "data", res.Data(),
-			"flags", *res.Data().(comm.Args2).DebugFlags)
+			"flags", *res.Data().(comm.Args2).Flags1)
 	} else {
 		logger.Infow("Init:", "res", res)
 	}
@@ -114,7 +114,7 @@ func main() {
 	})
 	if res.IsOk() {
 		logger.Infow("Init2:", "data", res.Data(),
-			"flags", *res.Data().(comm.Args2).DebugFlags)
+			"flags", *res.Data().(comm.Args2).Flags1)
 	} else {
 		logger.Infow("Init2:", "res", res)
 	}

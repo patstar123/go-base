@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 	"syscall"
 
-	"lx/meeting/base/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 var gOnAbort func()

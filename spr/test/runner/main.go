@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"lx/meeting/base"
-	"lx/meeting/base/logger"
 	"lx/meeting/base/spr"
 	"lx/meeting/base/spr/test/comm"
 )
@@ -39,7 +38,7 @@ func (c *Complex) CustomTypeValues() []any {
 }
 
 func (c *Complex) Init(args *comm.Args2, reply *base.Result) error {
-	fmt.Println("Complex: Init:", args, args.DebugFlags)
+	fmt.Println("Complex: Init:", args, args.Flags1)
 	*reply = base.REMOTE_SYSTEM_ERROR.AppendMsg("test error").SetData(*args)
 	return nil
 }
@@ -63,7 +62,7 @@ func (p *Simple2Callback) Plus(a, b int) (error, int) {
 var runner *spr.SubProcRunner
 
 func main() {
-	logger.InitSimpleLogger("test", "debug")
+	base.InitSimpleLogger("test", "debug")
 
 	rpcObjs := map[string]spr.RpcSvr{
 		"simple":  &Simple{},
