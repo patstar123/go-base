@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/patstar123/go-base"
 	"github.com/patstar123/go-base/spr"
 	"github.com/patstar123/go-base/spr/test/comm"
 	"time"

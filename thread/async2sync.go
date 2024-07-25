@@ -1,6 +1,7 @@
 package thread
 
 import (
+	"github.com/patstar123/go-base"
 	"time"
 )
 

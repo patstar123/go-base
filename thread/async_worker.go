@@ -3,6 +3,7 @@ package thread
 import (
 	"bytes"
 	"github.com/livekit/protocol/logger"
+	"github.com/patstar123/go-base"
 	"github.com/patstar123/go-base/utils"
 	"runtime"
 	"strconv"
