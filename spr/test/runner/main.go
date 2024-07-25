@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
-	"lx/meeting/base"
-	"lx/meeting/base/spr"
-	"lx/meeting/base/spr/test/comm"
+	"github.com/patstar123/meeting-base/spr"
+	"github.com/patstar123/meeting-base/spr/test/comm"
 )
 
 type Simple struct {

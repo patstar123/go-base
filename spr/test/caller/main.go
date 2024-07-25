@@ -1,9 +1,8 @@
 package main
 
 import (
-	"lx/meeting/base"
-	"lx/meeting/base/spr"
-	"lx/meeting/base/spr/test/comm"
+	"github.com/patstar123/meeting-base/spr"
+	"github.com/patstar123/meeting-base/spr/test/comm"
 	"time"
 
 	"github.com/livekit/protocol/logger"

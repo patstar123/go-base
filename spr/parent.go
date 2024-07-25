@@ -2,7 +2,6 @@ package spr
 
 import (
 	"fmt"
-	"lx/meeting/base"
 	"net/rpc"
 	"os"
 	"os/exec"

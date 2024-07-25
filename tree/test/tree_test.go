@@ -3,7 +3,7 @@ package test
 import (
 	"encoding/binary"
 	"fmt"
-	"lx/meeting/base/tree"
+	"github.com/patstar123/meeting-base/tree"
 	"testing"
 )
 

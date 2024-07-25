@@ -3,7 +3,6 @@ package utils
 import (
 	"github.com/livekit/protocol/logger"
 	"gopkg.in/yaml.v3"
-	"lx/meeting/base"
 	"os"
 	"path/filepath"
 )

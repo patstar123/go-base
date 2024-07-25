@@ -1,4 +1,4 @@
-module lx/meeting/base
+module github.com/patstar123/meeting-base
 
 go 1.20
 

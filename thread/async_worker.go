@@ -3,8 +3,7 @@ package thread
 import (
 	"bytes"
 	"github.com/livekit/protocol/logger"
-	"lx/meeting/base"
-	"lx/meeting/base/utils"
+	"github.com/patstar123/meeting-base/utils"
 	"runtime"
 	"strconv"
 	"time"

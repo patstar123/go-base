@@ -1,7 +1,6 @@
 package thread
 
 import (
-	"lx/meeting/base"
 	"time"
 )
 
