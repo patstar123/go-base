@@ -3,7 +3,7 @@ package test
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/patstar123/meeting-base/tree"
+	"github.com/patstar123/go-base/tree"
 	"testing"
 )
 

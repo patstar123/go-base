@@ -1,4 +1,4 @@
-module github.com/patstar123/meeting-base
+module github.com/patstar123/go-base
 
 go 1.20
 

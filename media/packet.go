@@ -1,6 +1,6 @@
 package media
 
-import "github.com/patstar123/meeting-base/utils"
+import "github.com/patstar123/go-base/utils"
 
 // AVCodec 音视频编码格式
 type AVCodec int

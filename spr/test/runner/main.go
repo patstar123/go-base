@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/patstar123/meeting-base/spr"
-	"github.com/patstar123/meeting-base/spr/test/comm"
+	"github.com/patstar123/go-base/spr"
+	"github.com/patstar123/go-base/spr/test/comm"
 )
 
 type Simple struct {

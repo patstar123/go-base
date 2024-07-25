@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/patstar123/meeting-base/spr"
-	"github.com/patstar123/meeting-base/spr/test/comm"
+	"github.com/patstar123/go-base/spr"
+	"github.com/patstar123/go-base/spr/test/comm"
 	"time"
 
 	"github.com/livekit/protocol/logger"

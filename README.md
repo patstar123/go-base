@@ -1,2 +1,2 @@
-# meeting-base
-base of meeting services
+# go-base
+common libraries for go

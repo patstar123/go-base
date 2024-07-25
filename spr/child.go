@@ -3,7 +3,7 @@ package spr
 import (
 	"errors"
 	"github.com/livekit/protocol/logger"
-	"github.com/patstar123/meeting-base/utils"
+	"github.com/patstar123/go-base/utils"
 	"net"
 	"net/rpc"
 	"os"
